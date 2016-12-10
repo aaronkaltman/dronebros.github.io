@@ -11,4 +11,7 @@ var config = {
     };
 firebase.initializeApp(config);
 
-alert("hi");
+function alertMe() {
+    alert("Hello! I am an alert box!!");
+}
+alertMe();
